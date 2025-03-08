@@ -129,7 +129,7 @@ export default function RakuwariKun() {
             value={player.name}
             onChange={(e) => handleNameChange(playerIndex, e.target.value)}
             style={{
-              width: "80%",
+              width: "70%",
               padding: "10px",
               marginBottom: "10px",
               border: "1px solid #ccc",
