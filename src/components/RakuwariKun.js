@@ -89,7 +89,7 @@ export default function RakuwariKun() {
           marginBottom: "20px",
         }}
       >
-        <h1 style={{ fontSize: "24px", color: "#1e3a8a", margin: 0 }}>
+        <h1 style={{ fontSize: "24px", color: "#191970", margin: 0 }}>
           らくわりくん
         </h1>
       </div>
