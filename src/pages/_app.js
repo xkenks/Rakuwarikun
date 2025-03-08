@@ -1,7 +1,11 @@
 import "../styles/globals.css";
+import Footer from "../components/ui/Footer"; 
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function App({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  );
 }
-
-export default MyApp;

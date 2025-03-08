@@ -79,7 +79,6 @@ export default function About() {
           トップページに戻る
         </Link>
       </div>
-
     </div>
   );
 }
