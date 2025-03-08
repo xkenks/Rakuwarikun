@@ -12,8 +12,8 @@ export default function Home() {
         <Image 
           src="/logo.png"
           alt="らくわりくん ロゴ"
-          width={300} 
-          height={150} 
+          width={250} 
+          height={130} 
           priority
           unoptimized
         />
