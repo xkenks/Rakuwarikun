@@ -107,7 +107,6 @@ export default function RakuwariKun() {
             boxShadow: "0 1px 3px rgba(0, 0, 0, 0.1)",
           }}
         >
-          {/* ✖︎ ボタンを右上に置いて、その参加者を削除 */}
           <button
             onClick={() => removePlayer(playerIndex)}
             style={{
@@ -130,7 +129,7 @@ export default function RakuwariKun() {
             value={player.name}
             onChange={(e) => handleNameChange(playerIndex, e.target.value)}
             style={{
-              width: "70%",
+              width: "80%",
               padding: "10px",
               marginBottom: "10px",
               border: "1px solid #ccc",
