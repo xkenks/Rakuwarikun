@@ -13,7 +13,7 @@ export default function Home() {
           src="/logo.png"
           alt="らくわりくん ロゴ"
           width={250} 
-          height={130} 
+          height={80} 
           priority
           unoptimized
         />
