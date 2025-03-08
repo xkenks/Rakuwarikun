@@ -38,8 +38,7 @@ export default function About() {
         <li style={{ marginBottom: "10px" }}>✅ 最適な清算方法を自動計算</li>
         <li style={{ marginBottom: "10px" }}>✅ マイナスボタンを押すだけで簡単に負の値を入力可能</li>
         <li style={{ marginBottom: "10px" }}>✅ 1000円単位での調整が可能</li>
-        <li style={{ marginBottom: "10px" }}>✅ 最大20人まで対応可能</li>
-        <li style={{ marginBottom: "10px" }}>✅ リアルタイムで精算結果を表示し、手間なく割り勘処理</li>
+        <li style={{ marginBottom: "10px" }}>✅ 最大10人まで対応可能</li>
         <li style={{ marginBottom: "10px" }}>✅ シンプルで直感的なデザインだから、誰でもすぐに使える</li>
         <li style={{ marginBottom: "10px" }}>✅ 完全無料！登録不要ですぐに使える</li>
       </ul>
