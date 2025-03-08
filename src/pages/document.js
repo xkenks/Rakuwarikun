@@ -1,16 +1,18 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
+import Document from 'next/document';
 
-export default function Document() {
-  return (
-    <Html lang="ja">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  );
+export default class MyDocument extends Document {
+  render() {
+    return (
+      <Html lang="ja">
+        <Head>
+          {/* ここにメタタグやフォントのリンクを追加 */}
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }
